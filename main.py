@@ -3,5 +3,5 @@ from pars import JSONParser
 from types_ import JSONType
 
 
-def JSONdecode(chars: str) -> JSONType:
+def JSON_decode(chars: str) -> JSONType:
     return JSONParser(lex(chars)).json_parse().value
